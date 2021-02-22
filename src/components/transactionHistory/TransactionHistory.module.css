@@ -1,0 +1,17 @@
+.transactionHistory {
+  width: 300px;
+  margin: 50px auto 40px;
+  font-family: 'Lato';
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 1px #94a0ac;
+  border-radius: 4px;
+}
+
+.transactions {
+  font-size: 15px;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  color: #5c6975;
+  line-height: 2;
+  text-align: center;
+}

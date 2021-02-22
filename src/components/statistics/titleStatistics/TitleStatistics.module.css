@@ -1,0 +1,11 @@
+.title {
+  font-family: 'Lato';
+  font-size: 16px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #49545a;
+  text-align: center;
+  padding: 30px 0 20px;
+}

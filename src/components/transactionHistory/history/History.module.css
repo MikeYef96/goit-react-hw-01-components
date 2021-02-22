@@ -1,0 +1,19 @@
+.colum:nth-child(odd) {
+  background-color: #f3f6f9;
+}
+
+.colum:nth-child(even) {
+  background-color: #e7ecf2;
+}
+
+.colum:last-child td {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.colum:hover,
+.colum:focus {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px #94a0ac;
+}

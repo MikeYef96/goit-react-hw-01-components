@@ -1,6 +1,5 @@
 import React from 'react';
 import { DescriptionProfile } from './descriptionProfile/DescriptionProfile';
-import { StatisticProfile } from './descriptionProfile/DescriptionProfile';
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
@@ -14,7 +13,18 @@ export function Profile({ name, tag, location, avatar, stats }) {
         avatar={avatar}
       />
       <ul className={css.stats}>
-        <StatisticProfile stats={stats} />
+        <li className={css.stat}>
+          <span className={css.label}>Followers</span>
+          <span className={css.quantity}>{stats.followers}</span>
+        </li>
+        <li className={css.stat}>
+          <span className={css.label}>Views</span>
+          <span className={css.quantity}>{stats.views}</span>
+        </li>
+        <li className={css.stat}>
+          <span className={css.label}>Likes</span>
+          <span className={css.quantity}>{stats.likes}</span>
+        </li>
       </ul>
     </div>
   );
